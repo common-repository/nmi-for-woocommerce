@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-01 02:07+0100\n"
+"PO-Revision-Date: 2024-08-01 02:06+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.4\n"
+
+#: includes/creditcard.php:46
+msgid "Invalid Customer Vault Id"
+msgstr ""
+
+#: includes/creditcard.php:49 includes/echeck.php:41
+#, php-format
+msgid "Deleting card failed. %1$s-%2$s"
+msgstr ""
+
+#: includes/creditcard.php:55
+msgid "There was error processing your request."
+msgstr ""
+
+#: includes/creditcard.php:67
+msgid "Network Merchants Inc - CC"
+msgstr ""
+
+#: includes/creditcard.php:68
+msgid "Accept payments seamlessly with eCheck using NMI For WooCommerce."
+msgstr ""
+
+#: includes/creditcard.php:211 includes/echeck.php:179
+msgid "Subscription cancelled with NMI"
+msgstr ""
+
+#: includes/creditcard.php:213 includes/echeck.php:181
+msgid "There was error cancelling the Subscription with NMI"
+msgstr ""
+
+#: includes/creditcard.php:262
+msgid "Please select a credit card in WooCommerce => Payments."
+msgstr ""
+
+#: includes/creditcard.php:286
+msgid "Network Merchants Inc"
+msgstr ""
+
+#: includes/creditcard.php:287
+msgid ""
+"Network Merchants Inc - CC works by processing the Credit Card Payments on "
+"your site."
+msgstr ""
+
+#: includes/creditcard.php:298 includes/echeck.php:238
+msgid "Gateway Disabled"
+msgstr ""
+
+#: includes/creditcard.php:299 includes/echeck.php:238
+msgid "NMI does not support your store currency."
+msgstr ""
+
+#: includes/creditcard.php:318 includes/echeck.php:255
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/creditcard.php:320
+msgid "Enable Network Merchants Inc - CC"
+msgstr ""
+
+#: includes/creditcard.php:325 includes/echeck.php:262
+msgid "Title"
+msgstr ""
+
+#: includes/creditcard.php:327 includes/echeck.php:264
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/creditcard.php:328
+msgid "Credit Card"
+msgstr ""
+
+#: includes/creditcard.php:332 includes/echeck.php:269
+msgid "Description"
+msgstr ""
+
+#: includes/creditcard.php:334 includes/echeck.php:271
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/creditcard.php:335
+msgid "Pay via NMI; you can pay with your credit card."
+msgstr ""
+
+#: includes/creditcard.php:339
+msgid "Private Security key"
+msgstr ""
+
+#: includes/creditcard.php:341
+msgid ""
+"Please enter your Private Security key; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: includes/creditcard.php:346
+msgid "Public Tokenization Key"
+msgstr ""
+
+#: includes/creditcard.php:348
+msgid ""
+"Please enter your Public Tokenization Key; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: includes/creditcard.php:353
+msgid "Public Checkout Key"
+msgstr ""
+
+#: includes/creditcard.php:355
+msgid ""
+"Please enter your Public Checkout Key; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: includes/creditcard.php:360
+msgid "Webhooks Signing Key"
+msgstr ""
+
+#: includes/creditcard.php:362
+#, php-format
+msgid ""
+"Please enter your Webhooks Signing Key; this is needed in order to take "
+"payment. %s"
+msgstr ""
+
+#: includes/creditcard.php:367 includes/echeck.php:283
+msgid "Descriptor"
+msgstr ""
+
+#: includes/creditcard.php:369 includes/echeck.php:285
+msgid "Set payment descriptor on supported processors."
+msgstr ""
+
+#: includes/creditcard.php:374 includes/echeck.php:290
+msgid "Descriptor URL"
+msgstr ""
+
+#: includes/creditcard.php:376 includes/echeck.php:292
+msgid "Set payment descriptor url on supported processors."
+msgstr ""
+
+#: includes/creditcard.php:381 includes/echeck.php:297
+msgid "Duplicate Seconds Check"
+msgstr ""
+
+#: includes/creditcard.php:383 includes/echeck.php:299
+msgid ""
+"Sets the time in seconds for duplicate transaction checking on supported "
+"processors. Set to 0 to disable duplicate checking."
+msgstr ""
+
+#: includes/creditcard.php:388 includes/echeck.php:304
+msgid "Processor ID"
+msgstr ""
+
+#: includes/creditcard.php:390 includes/echeck.php:306
+msgid ""
+"If using Multiple MIDs, route to this processor (processor_id is obtained "
+"under Settings->Transaction Routing in the Control Panel)."
+msgstr ""
+
+#: includes/creditcard.php:395 includes/echeck.php:311
+msgid "Enable/Disable Customer Receipt"
+msgstr ""
+
+#: includes/creditcard.php:397 includes/echeck.php:313
+msgid "Enable Customer Receipt"
+msgstr ""
+
+#: includes/creditcard.php:398 includes/echeck.php:314
+msgid ""
+"If enabled, when the customer is charged, they will be sent a transaction "
+"receipt."
+msgstr ""
+
+#: includes/creditcard.php:403
+msgid "Display Credit Card Fields Inline"
+msgstr ""
+
+#: includes/creditcard.php:404
+msgid "Enable Display Credit Card Fields Inline"
+msgstr ""
+
+#: includes/creditcard.php:406
+msgid "If enabled, users will be displayed Credit Card Fields Inline."
+msgstr ""
+
+#: includes/creditcard.php:411
+msgid "Display Challenge Inline"
+msgstr ""
+
+#: includes/creditcard.php:412
+msgid "Enable Display Challenge Inline"
+msgstr ""
+
+#: includes/creditcard.php:414
+msgid "If enabled, users will be displayed 3D Secure challenge window inline."
+msgstr ""
+
+#: includes/creditcard.php:419
+msgid "Save Cards"
+msgstr ""
+
+#: includes/creditcard.php:420
+msgid "Enable Payment via Saved Cards"
+msgstr ""
+
+#: includes/creditcard.php:422
+msgid ""
+"If enabled, users will be able to pay with a saved card during checkout. "
+"Card details are saved on NMI servers, not on your store."
+msgstr ""
+
+#: includes/creditcard.php:427 includes/echeck.php:327
+msgid "Send Cart Details"
+msgstr ""
+
+#: includes/creditcard.php:428 includes/echeck.php:328
+msgid "Enable Send Cart Details"
+msgstr ""
+
+#: includes/creditcard.php:430 includes/echeck.php:330
+msgid "If enabled, plugin will send the product details to NMI."
+msgstr ""
+
+#: includes/creditcard.php:435 includes/echeck.php:335
+msgid "Transaction Type"
+msgstr ""
+
+#: includes/creditcard.php:442 includes/echeck.php:342
+msgid "Select your Transaction Type."
+msgstr ""
+
+#: includes/creditcard.php:447 includes/echeck.php:347
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/creditcard.php:469 includes/echeck.php:369
+msgid "Select your Merchant Account Provider."
+msgstr ""
+
+#: includes/creditcard.php:474
+msgid "Accepted Cards"
+msgstr ""
+
+#: includes/creditcard.php:477
+msgid ""
+"Select which card types to accept. If you want to select multiple cards be "
+"sure to hold down the CTRL key on your keyboard and then click the names of "
+"the cards you want to add."
+msgstr ""
+
+#: includes/creditcard.php:483 includes/echeck.php:374
+msgid "Debug log"
+msgstr ""
+
+#: includes/creditcard.php:485 includes/echeck.php:376
+msgid "Enable logging"
+msgstr ""
+
+#: includes/creditcard.php:487 includes/echeck.php:378
+#, php-format
+msgid "Log NMI requests, inside %s"
+msgstr ""
+
+#: includes/creditcard.php:566
+msgid "Nothing Here."
+msgstr ""
+
+#: includes/creditcard.php:663 includes/echeck.php:401
+msgid "Add Card"
+msgstr ""
+
+#: includes/creditcard.php:709
+msgid "Card Number"
+msgstr ""
+
+#: includes/creditcard.php:718
+msgid "Card Expiration"
+msgstr ""
+
+#: includes/creditcard.php:724
+msgid "CVV Code"
+msgstr ""
+
+#: includes/creditcard.php:760
+msgid "Nonce value is missing. Please try again."
+msgstr ""
+
+#: includes/creditcard.php:769
+msgid "Nonce verification failed. Please try again."
+msgstr ""
+
+#: includes/creditcard.php:780
+msgid ""
+"There was an error processing payment using the token. Please use the card "
+"details to continue the checkout."
+msgstr ""
+
+#: includes/creditcard.php:785
+msgid "Payment Token not received."
+msgstr ""
+
+#: includes/creditcard.php:785 includes/echeck.php:485 includes/echeck.php:489
+#: includes/echeck.php:493
+msgid "is a required field."
+msgstr ""
+
+#: includes/creditcard.php:812
+#, php-format
+msgid "JSON decoding error for payment token: %s"
+msgstr ""
+
+#: includes/creditcard.php:821
+msgid "Invalid JSON input detected for payment token."
+msgstr ""
+
+#: includes/creditcard.php:839
+#, php-format
+msgid "JSON decoding error for 3DS token: %s"
+msgstr ""
+
+#: includes/creditcard.php:848
+msgid "Invalid JSON input detected for 3DS token."
+msgstr ""
+
+#: includes/creditcard.php:982 includes/creditcard.php:1201
+#: includes/creditcard.php:1286 includes/creditcard.php:1547
+#: includes/echeck.php:606 includes/echeck.php:818 includes/echeck.php:898
+msgid "unknown"
+msgstr ""
+
+#: includes/creditcard.php:1428 includes/creditcard.php:1437
+#, php-format
+msgid "3DS Auth Failed. %s"
+msgstr ""
+
+#: includes/creditcard.php:1429
+msgid "3DS Check Failed."
+msgstr ""
+
+#: includes/creditcard.php:1481
+#, php-format
+msgid "NMI CC Order Request: %s"
+msgstr ""
+
+#: includes/creditcard.php:1502
+#, php-format
+msgid ""
+"The NMI Payment transaction is successful. The Transaction Id is %1$s. %2$s "
+"Card with last digits %3$s and expiry %4$s"
+msgstr ""
+
+#: includes/creditcard.php:1515 includes/creditcard.php:1520
+#: includes/creditcard.php:1525 includes/echeck.php:1065
+#: includes/echeck.php:1070 includes/echeck.php:1075
+#, php-format
+msgid "%1$s => %2$s"
+msgstr ""
+
+#: includes/creditcard.php:1546
+msgid "undefined"
+msgstr ""
+
+#: includes/creditcard.php:1553
+msgid "New Token Saved:"
+msgstr ""
+
+#: includes/creditcard.php:1623 includes/creditcard.php:1624
+#: includes/creditcard.php:1876 includes/echeck.php:1144
+#: includes/echeck.php:1145 includes/echeck.php:1150 includes/echeck.php:1369
+#, php-format
+msgid "Transaction Failed. %1$s-%2$s"
+msgstr ""
+
+#: includes/creditcard.php:1631
+#, php-format
+msgid "Transaction Failed. %1$s - %2$s"
+msgstr ""
+
+#: includes/creditcard.php:1641 includes/creditcard.php:1642
+#: includes/creditcard.php:1648 includes/echeck.php:1160
+#: includes/echeck.php:1161 includes/echeck.php:1166
+#, php-format
+msgid "Gateway Error. Please Notify the Store Owner about this error. %s"
+msgstr ""
+
+#: includes/creditcard.php:1755 includes/echeck.php:1263
+msgid "Empty NMI response."
+msgstr ""
+
+#: includes/creditcard.php:1761 includes/echeck.php:1269
+#, php-format
+msgid "Refund %1$s - Refund ID: %2$s"
+msgstr ""
+
+#: includes/creditcard.php:1765 includes/echeck.php:1273
+msgid "Transaction Declined"
+msgstr ""
+
+#: includes/creditcard.php:1769 includes/echeck.php:1277
+msgid "Error in transaction data or system error."
+msgstr ""
+
+#: includes/creditcard.php:1825
+#, php-format
+msgid "Saving Card Response. - %s"
+msgstr ""
+
+#: includes/creditcard.php:1833
+msgid "Trying to save card."
+msgstr ""
+
+#: includes/creditcard.php:1851
+msgid "Trying to update saved card."
+msgstr ""
+
+#: includes/creditcard.php:1887
+#, php-format
+msgid "Please make sure you have entered the Credit Card details. %s"
+msgstr ""
+
+#: includes/creditcard.php:1897
+#, php-format
+msgid "Failed to save the Card. %s"
+msgstr ""
+
+#: includes/echeck.php:49
+#, php-format
+msgid "There was an error processing your request. %s"
+msgstr ""
+
+#: includes/echeck.php:66 includes/echeck.php:228
+msgid "Network Merchants Inc - eCheck"
+msgstr ""
+
+#: includes/echeck.php:67
+msgid ""
+"Integrates eCheck payment fields directly into the checkout page, ensuring "
+"that payment details are securely transmitted to the gateway for transaction "
+"processing."
+msgstr ""
+
+#: includes/echeck.php:229
+msgid ""
+"Network Merchants Inc - eCheck works by processing the ACH Account Payments "
+"on your site."
+msgstr ""
+
+#: includes/echeck.php:257
+msgid "Enable Network Merchants Inc - eCheck"
+msgstr ""
+
+#: includes/echeck.php:265
+msgid "eCheck"
+msgstr ""
+
+#: includes/echeck.php:272
+msgid "Pay via NMI; you can pay with your ACH Account."
+msgstr ""
+
+#: includes/echeck.php:276
+msgid "Private Security Key"
+msgstr ""
+
+#: includes/echeck.php:278
+msgid ""
+"Please enter your Private Security Key; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: includes/echeck.php:319
+msgid "Save Account"
+msgstr ""
+
+#: includes/echeck.php:320
+msgid "Enable Payment via Saved Account"
+msgstr ""
+
+#: includes/echeck.php:322
+msgid ""
+"If enabled, users will be able to pay with a saved account during checkout. "
+"Account details are saved on NMI servers, not on your store."
+msgstr ""
+
+#: includes/echeck.php:439
+msgid "Account Name"
+msgstr ""
+
+#: includes/echeck.php:443
+msgid "Account Type"
+msgstr ""
+
+#: includes/echeck.php:450
+msgid "Account Holder Type"
+msgstr ""
+
+#: includes/echeck.php:457
+msgid "Routing number"
+msgstr ""
+
+#: includes/echeck.php:461
+msgid "Account number"
+msgstr ""
+
+#: includes/echeck.php:481
+msgid ""
+"There was error processing payment using token please use the card details "
+"to continue the checkout."
+msgstr ""
+
+#: includes/echeck.php:590
+msgid "New ACH Account with no Tokenisation"
+msgstr ""
+
+#: includes/echeck.php:1035
+msgid "NMI eCheck Order Request: "
+msgstr ""
+
+#: includes/echeck.php:1047
+msgid "NMI eCheck Order Response: "
+msgstr ""
+
+#: includes/echeck.php:1054
+#, php-format
+msgid ""
+"The NMI Payment transaction is successful. The Transaction Id is %1$s. "
+"Account used is %2$s"
+msgstr ""
+
+#: includes/echeck.php:1094 includes/echeck.php:1114
+msgid "New Token Saved : "
+msgstr ""
+
+#: includes/echeck.php:1114
+msgid "Old Token Deleted : "
+msgstr ""
+
+#: includes/echeck.php:1134
+msgid "Token Deleted : "
+msgstr ""
+
+#: includes/echeck.php:1134
+msgid "because of error : "
+msgstr ""
+
+#: includes/echeck.php:1375
+msgid "Please make sure you have entered the Credit Card details."
+msgstr ""

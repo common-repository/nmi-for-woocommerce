@@ -1,0 +1,39 @@
+/*= Frontnend Styles
+---------------------------------------*/
+
+
+.woocommerce .wc_payment_method.payment_method_woonmi_echeck input[type="text"],
+.woocommerce .wc_payment_method.payment_method_woonmi_echeck textarea,
+.woocommerce .wc_payment_method.payment_method_woonmi_echeck select ,
+.woocommerce .wc_payment_method.payment_method_woonmi input[type="text"],
+.woocommerce .wc_payment_method.payment_method_woonmi textarea,
+.woocommerce .wc_payment_method.payment_method_woonmi select 
+{
+    border: 1px solid #888;
+    background-color: #f9f9f9;
+    padding: 10px;
+    font-size: 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.woocommerce .wc_payment_method.payment_method_woonmi_echeck input[type="text"]:focus,
+.woocommerce .wc_payment_method.payment_method_woonmi_echeck textarea:focus,
+.woocommerce .wc_payment_method.payment_method_woonmi_echeck select:focus,
+.woocommerce .wc_payment_method.payment_method_woonmi input[type="text"]:focus,
+.woocommerce .wc_payment_method.payment_method_woonmi textarea:focus,
+.woocommerce .wc_payment_method.payment_method_woonmi select:focus
+ {
+    border-color: #007cba;
+    background-color: #fff;
+    outline: none;
+}
+
+
+.woocommerce-page .wc_payment_method.payment_method_woonmi input[type="radio"].shipping_method ~ .payment_box, .woocommerce-page .wc_payment_method.payment_method_woonmi input[type="radio"][name="payment_method"] ~ .payment_box
+
+{
+	
+	padding-left: 0;
+}

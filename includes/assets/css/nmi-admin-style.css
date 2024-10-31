@@ -1,0 +1,54 @@
+/* CSS styles for NMI Admin Settings Page */
+.nmi-promotion {
+    border: 1px solid #6b787d; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space below the box */
+    background-color: #f9f9f9; /* Light background color */
+   
+}
+
+.nmi-promotion h2 {
+   color: #ff0078;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.nmi-promotion h3 {
+    color: #333; /* Subheading color */
+    font-size: 20px; /* Subheading font size */
+    margin: 15px 0; /* Space around subheadings */
+}
+
+.nmi-promotion ul {
+    list-style-type: none; /* Remove default list style */
+    padding-left: 20px; /* Remove default padding */
+    margin: 15px 0; /* Space around lists */
+	margin: 30px;
+}
+
+.nmi-promotion ul li {
+    margin: 10px 0; /* Space between list items */
+    font-size: 16px; /* List item font size */
+	list-style: square;
+}
+
+.nmi-promotion a.button {
+  background-color: #0d36b3;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+}
+}
+
+.nmi-promotion a.button:hover {
+    background-color: #005177; /* Darker shade on hover */
+}
